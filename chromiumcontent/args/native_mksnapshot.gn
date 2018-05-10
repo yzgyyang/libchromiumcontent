@@ -2,9 +2,7 @@ root_extra_deps = [ "//v8:v8_maybe_snapshot" ]
 is_electron_build = true
 is_component_build = false
 is_official_build = true
-symbol_level = 2
 enable_nacl = false
-enable_widevine = true
 
 # CFI is disabled for the time being, as Electron is not a monolithic binary
 # with at least one shared library component (Node) and CFI is tricky in that
