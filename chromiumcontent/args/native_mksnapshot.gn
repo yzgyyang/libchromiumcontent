@@ -5,9 +5,6 @@ is_official_build = true
 symbol_level = 2
 enable_nacl = false
 enable_widevine = true
-proprietary_codecs = true
-is_component_ffmpeg = true
-ffmpeg_branding = "Chrome"
 
 # CFI is disabled for the time being, as Electron is not a monolithic binary
 # with at least one shared library component (Node) and CFI is tricky in that
