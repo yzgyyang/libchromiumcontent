@@ -4,6 +4,7 @@ is_component_build = false
 is_official_build = true
 v8_enable_i18n_support = false
 proprietary_codecs = true
+ffmpeg_branding = "Chrome"
 
 # Always use the system provided standard library
 use_custom_libcxx = false
