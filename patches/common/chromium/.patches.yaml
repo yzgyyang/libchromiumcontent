@@ -347,3 +347,9 @@ patches:
   description:  |
     Backports part of 4dabe8070550cb4014d1f996aa1a7e130bef42e1 so that we don't
     need the native_client source tree.
+-
+  owners: nornagon
+  file: boringssl_build_gn.patch
+  description: |
+    Build BoringSSL with some extra functions that nodejs needs. Only affects
+    the GN build; with the GYP build, nodejs is still built with OpenSSL.
